@@ -7,7 +7,7 @@ import DigitCard from '../components/DigitCard';
 const COLS = 5;
 const ROWS = 6;
 const TOTAL = ROWS * COLS;
-const IMG = '/images/puzzle.jpg';
+const IMG = `${import.meta.env.BASE_URL}images/puzzle.jpg`;
 
 interface Piece {
   id: number;
